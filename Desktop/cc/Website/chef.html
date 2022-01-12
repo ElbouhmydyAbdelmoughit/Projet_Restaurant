@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eat, Meet & Rate">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>YouMeal</title>
+</head>
+
+<body>
+    <!--///////////////////////////////////////////HEADER//////////////////////////////////////////////////-->
+    <header>
+        <div class="header">
+            <div class="navigation1">
+                <nav role="navigation">
+                    <div class="menuToggle1">
+                    <input type="checkbox"/>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul class="menu1">
+                        <img style="width: 200px;" src="Icons\YoumealB.svg" alt="logo">
+                        <div style="height: 10vh;"></div>
+                        <a href="index.html#Today" target="_top"><li>Today's menu</li></a>
+                        <a href="index.html#Week" target="_top"><li>This Week's menu</li></a>
+                        <a href="index.html#Rate" target="_top"><li>Rate your favorite</li></a>
+                        <a href="index.html#New" target="_top"><li>New meals</li></a>
+                    </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="logo">
+                <div>
+                    <a href="index.html"><img src="Icons\YoumealB.svg" alt="logo"></a>
+                </div>
+            </div>
+            <div class="navigation2">
+                <div style="text-align: center;" class="menuToggle2">
+                    <a href="profil.html"><i style="font-size: 30px; color: black;" class="fa fa-user" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="nav">
+                <ul class="navbar">
+                    <li><a href="index.html#Today">Today's menu</a></li>
+                    <li><a href="index.html#Week">This Week's menu</a></li>
+                    <li><a href="index.html#Rate">Rate your favorite</a></li>
+                    <li id="pad"><a href="index.html#New">New meals</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--///////////////////////////////////////////MAIN////////////////////////////////////////////////////-->    
+    <main>
+        <div class="section1">
+            <div class="divider">
+                <h4>Eat, Meet & Rate</h4>
+            </div>
+        </div>
+        <div class="stats">
+            <div id="Today">
+                <h1>Welcome Back CHEF!</h1>
+                <h3>Here are the stats of Today.</h3>
+                <h5>Monday, the 10th of january</h5>
+                <div style="height: 7vh;"></div>
+                <div class="todaymeal">
+                    <div class="m1">
+                        <img src="Visuals/Meal1.png" alt="">
+                        <h3>Chicken breast</h3>
+                        <p>25%</p>
+                        <h5>25 meals</h5>
+                    </div>
+                    <div class="m2">
+                        <img src="Visuals/Meal2.png" alt="">
+                        <h3>Salmon fillet</h3>
+                        <p>58%</p>
+                        <h5>58 meals</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height: 7vh;"></div>
+        <div class="stoday">
+            <div id="Today">
+                <h1>Want to edit / add meals</h1>
+                <h3>Please select the Week below</h3>
+                <div class="selector">
+                    <div class="weekselect">
+                        <select>
+                          <option class="one" value="0">Weeks</option>
+                          <option value="1">Week 1</option>
+                          <option value="2">Week 2</option>
+                          <option value="3">Week 3</option>
+                          <option value="3">Week 4</option>
+                        </select>
+                    </div>
+                    <div class="btn">
+                        <button type="submit" class="button-27" role="button">Submit</button>
+                    </div>
+                </div>
+                <div style="height: 7vh;"></div>
+                <div class="weekedit">
+                    <div>
+                        <h3>Monday's menu</h3>
+                        <div class="todaymeal">
+                            <div class="m1">
+                                <img src="Visuals/Meal1.png" alt="">
+                                <h3>Chicken breast</h3>
+                                <p>with full of fresh vegetables and slices of small hand harvested tomato.</p>
+                                <div class="btn">
+                                    <button type="menu" class="button-27" role="button"><i style="font-size: 30px;" class="fa fa-pencil-square" aria-hidden="true"></i><span> Edit</span></button>
+                                </div>
+                            </div>
+                            <div class="m2">
+                                <img src="Visuals/Meal2.png" alt="">
+                                <h3>Salmon fillet</h3>
+                                <p>with full of fresh vegetables and slices of small hand harvested tomato.</p>
+                                <div class="btn">
+                                    <button type="menu" class="button-27" role="button"><i style="font-size: 30px;" class="fa fa-pencil-square" aria-hidden="true"></i><span> Edit</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Tuesday's menu</h3>
+                        <div class="todaymeal">
+                            <div class="m1">
+                                <img src="Visuals/Meal1.png" alt="">
+                                <h3>Chicken breast</h3>
+                                <p>with full of fresh vegetables and slices of small hand harvested tomato.</p>
+                                <div class="btn">
+                                    <button type="menu" class="button-27" role="button"><i style="font-size: 30px;" class="fa fa-pencil-square" aria-hidden="true"></i><span> Edit</span></button>
+                                </div>
+                            </div>
+                            <div class="m2">
+                                <img src="Visuals/Meal2.png" alt="">
+                                <h3>Salmon fillet</h3>
+                                <p>with full of fresh vegetables and slices of small hand harvested tomato.</p>
+                                <div class="btn">
+                                    <button type="menu" class="button-27" role="button"><i style="font-size: 30px;" class="fa fa-pencil-square" aria-hidden="true"></i><span> Edit</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Wednesday's menu</h3>
+                        <div class="todaymeal">
+                            <div class="m1">
+                                <img src="Visuals/Meal1.png" alt="">
+                                <h3>Chicken breast</h3>
+                                <p>with full of fresh vegetables and slices of small hand harvested tomato.</p>
+                                <div class="btn">
+                                    <button type="menu" class="button-27" role="button"><i style="font-size: 30px;" class="fa fa-pencil-square" aria-hidden="true"></i><span> Edit</span></button>
+                                </div>
+                            </div>
+                            <div class="m2">
+                                <img src="Visuals/Meal2.png" alt="">
+                                <h3>Salmon fillet</h3>
+                                <p>with full of fresh vegetables and slices of small hand harvested tomato.</p>
+                                <div class="btn">
+                                    <button type="menu" class="button-27" role="button"><i style="font-size: 30px;" class="fa fa-pencil-square" aria-hidden="true"></i><span> Edit</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="height: 7vh;"></div>
+                <div class="weekedit">
+                    <div>
+                        <h3>Thursday's menu</h3>
+                        <div class="todaymeal">
+                            <div class="m1">
+                                <img src="Visuals/Meal1.png" alt="">
+                                <h3>Chicken breast</h3>
+                                <p>with full of fresh vegetables and slices of small hand harvested tomato.</p>
+                                <div class="btn">
+                                    <button type="menu" class="button-27" role="button"><i style="font-size: 30px;" class="fa fa-pencil-square" aria-hidden="true"></i><span> Edit</span></button>
+                                </div>
+                            </div>
+                            <div class="m2">
+                                <img src="Visuals/Meal2.png" alt="">
+                                <h3>Salmon fillet</h3>
+                                <p>with full of fresh vegetables and slices of small hand harvested tomato.</p>
+                                <div class="btn">
+                                    <button type="menu" class="button-27" role="button"><i style="font-size: 30px;" class="fa fa-pencil-square" aria-hidden="true"></i><span> Edit</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Friday's menu</h3>
+                        <div class="todaymeal">
+                            <div class="m1">
+                                <img src="Visuals/Meal1.png" alt="">
+                                <h3>Chicken breast</h3>
+                                <p>with full of fresh vegetables and slices of small hand harvested tomato.</p>
+                                <div class="btn">
+                                    <button type="menu" class="button-27" role="button"><i style="font-size: 30px;" class="fa fa-pencil-square" aria-hidden="true"></i><span> Edit</span></button>
+                                </div>
+                            </div>
+                            <div class="m2">
+                                <img src="Visuals/Meal2.png" alt="">
+                                <h3>Salmon fillet</h3>
+                                <p>with full of fresh vegetables and slices of small hand harvested tomato.</p>
+                                <div class="btn">
+                                    <button type="menu" class="button-27" role="button"><i style="font-size: 30px;" class="fa fa-pencil-square" aria-hidden="true"></i><span> Edit</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height: 7vh;"></div>
+        <div class="stats">
+            <div id="Today">
+                <div style="height: 7vh;"></div>
+                <h1>Feedback</h1>
+                <h3>Meals, Rating & Comments</h3>
+                <div class="selector">
+                    <div class="weekselect">
+                        <select>
+                          <option class="one" value="0">Meals</option>
+                          <option value="1">Chicken breast</option>
+                          <option value="2">Salmon fillet</option>
+                          <option value="3">Chicken breast</option>
+                          <option value="3">Salmon fillet</option>
+                          <option value="4">Chicken breast</option>
+                          <option value="5">Salmon fillet</option>
+                          <option value="6">Chicken breast</option>
+                          <option value="7">Salmon fillet</option>
+                        </select>
+                    </div>
+                    <div class="btn">
+                        <button type="submit" class="button-27" role="button">Submit</button>
+                    </div>
+                </div>
+                <div style="height: 7vh;"></div>
+                <div id="Rate">
+                    <div class="todaymeal">
+                        <div class="rating">
+                            <div class="rat1">
+                                <div class="weekmeal">
+                                    <div class="m1">
+                                        <img src="Visuals/Meal1.png" alt="">
+                                        <h4>Chicken breast</h4>
+                                        <p>with full of fresh vegetables and slices of small hand harvested tomato.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rat2">
+                                <div class="r2">
+                                    <h3>How many times selected</h3>
+                                    <p>24</p>
+                                    <h3>Rating</h3>
+                                    <div style="font-size: 30px; text-align: center;">
+                                        <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i>
+                                    </div>
+                                    <h3>Comments</h3>
+                                    <div>
+                                        <div>
+                                            <div class="comment">
+                                                <h4>Full Name</h4>
+                                            </div>
+                                            <div>
+                                                <p>I don't like this meal.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn">
+                                        <button type="submit" class="button-27" role="button">Put to vote for All-time Deletion</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="height: 7vh;"></div>
+                <h2 style="text-align: center;">Best rated meals</h2>
+                <div style="height: 7vh;"></div>
+                <div class="todaymeal">
+                    <div class="m1">
+                        <img src="Visuals/Meal1.png" alt="">
+                        <h3>Chicken breast</h3>
+                        <p>88%</p>
+                        <h5>25 Good comments</h5>
+                    </div>
+                    <div class="m2">
+                        <img src="Visuals/Meal2.png" alt="">
+                        <h3>Salmon fillet</h3>
+                        <p>76%</p>
+                        <h5>13 Good comments</h5>
+                    </div>
+                    <div class="m2">
+                        <img src="Visuals/Meal3.jpg" alt="">
+                        <h3>Salmon fillet</h3>
+                        <p>71%</p>
+                        <h5>11 Good comments</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!--///////////////////////////////////////////FOOTER//////////////////////////////////////////////////-->
+    <footer>
+        <div style="height: 7vh;"></div>
+        <div class="footer1">
+            <img src="Icons/YoumealW.svg" alt="logo">
+        </div>
+        <div class="footer2">
+            <div><h6>All product names, logos, brands and dogs are property of their respective owners. Feel free to check out our privacy policy and terms of service.</h6></div>
+        </div>
+    </footer> 
+</body>
+
+</html>
